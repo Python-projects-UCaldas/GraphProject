@@ -12,7 +12,7 @@ pyphi.config.load_file(
 
 network = pyphi.Network(data['tpm'], node_labels=data['labels'])
 state = data['state']
-node_indices = (0, 1, 2, 3)
+node_indices = (0, 1, 2, 3 ,4)
 subsystem = pyphi.Subsystem(network, state, node_indices)
 f.close()
 sia = pyphi.compute.sia(subsystem)
