@@ -1,0 +1,828 @@
+----------
+graph10_emd_bi.py
+MIP: 
+ Cut [B] ━━/ /━━➤ [A, C, D, E]
+Phi: 
+ Φ =  0.003057
+Tiempo: 
+ 95.895717 s
+----------
+graph10_emd_bi_cut_approximation.py
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.003057
+Tiempo: 
+ 28.628398 s
+----------
+graph10_emd_bi_memoization.py
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.003057
+Tiempo: 
+ 92.956409 s
+----------
+graph10_emd_bi_no_new_concepts.py
+MIP: 
+ Cut [B] ━━/ /━━➤ [A, C, D, E]
+Phi: 
+ Φ =  0.003057
+Tiempo: 
+ 8.37728 s
+----------
+graph10_emd_bi_parallel.py
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.003057
+Tiempo: 
+ 92.438114 s
+----------
+graph10_emd_tri_cm.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.026402
+Tiempo: 
+ 320.376203 s
+----------
+graph10_emd_tri_no_cm.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.026402
+Tiempo: 
+ 506.773062 s
+----------
+graph10_l1_bi_cm.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.010016
+Tiempo: 
+ 30.621185 s
+----------
+graph10_l1_bi_no_cm.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.010016
+Tiempo: 
+ 28.475949 s
+----------
+graph11_emd_bi.py
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.009583
+Tiempo: 
+ 99.744442 s
+----------
+graph11_emd_bi_cut_approximation.py
+MIP: 
+ Cut [D] ━━/ /━━➤ [A, B, C, E]
+Phi: 
+ Φ =  0.009583
+Tiempo: 
+ 31.35992 s
+----------
+graph11_emd_bi_memoization.py
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.009583
+Tiempo: 
+ 99.364364 s
+----------
+graph11_emd_bi_no_new_concepts.py
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.009583
+Tiempo: 
+ 8.105043 s
+----------
+graph11_emd_bi_parallel.py
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.009583
+Tiempo: 
+ 100.091331 s
+----------
+graph11_emd_tri_cm.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.06666
+Tiempo: 
+ 404.282037 s
+----------
+graph11_emd_tri_no_cm.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.066659
+Tiempo: 
+ 441.532485 s
+----------
+graph11_l1_bi_cm.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.032778
+Tiempo: 
+ 24.146537 s
+----------
+graph11_l1_bi_no_cm.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.032778
+Tiempo: 
+ 27.21954 s
+----------
+graph1_emd_bi.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0
+Tiempo: 
+ 2.61768 s
+----------
+graph1_emd_bi_cut_approximation.py
+MIP: 
+ NullCut((0, 1, 2, 3))
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 0.001276 s
+----------
+graph1_emd_bi_memorization.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0
+Tiempo: 
+ 2.977983 s
+----------
+graph1_emd_bi_no_new_concept.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0
+Tiempo: 
+ 2.093082 s
+----------
+graph1_emd_bi_parallel.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0
+Tiempo: 
+ 2.538391 s
+----------
+graph1_emd_tri_cm.py
+MIP: 
+ NullCut((0, 1, 2, 3))
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 0.001294 s
+----------
+graph1_emd_tri_no_cm.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 7.17406 s
+----------
+graph1_l1_bi_cm.py
+MIP: 
+ NullCut((0, 1, 2, 3))
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 0.003814 s
+----------
+graph1_l1_bi_no_cm.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0
+Tiempo: 
+ 1.62505 s
+----------
+graph2_emd_bi.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  1.916665
+Tiempo: 
+ 0.33793 s
+----------
+graph2_emd_bi_cut_approximation.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  1.916665
+Tiempo: 
+ 0.26058 s
+----------
+graph2_emd_bi_memorization.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  1.916665
+Tiempo: 
+ 0.356493 s
+----------
+graph2_emd_bi_no_new_concepts.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  1.916665
+Tiempo: 
+ 0.33473 s
+----------
+graph2_emd_bi_parallel.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  1.916665
+Tiempo: 
+ 0.359191 s
+----------
+graph2_emd_tri_cm.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  2.680553
+Tiempo: 
+ 0.313732 s
+----------
+graph2_emd_tri_no_cm.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  2.680553
+Tiempo: 
+ 0.491263 s
+----------
+graph2_l1_bi_cm.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  4.784722
+Tiempo: 
+ 0.221356 s
+----------
+graph2_l2_bi_no_cm.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  4.784722
+Tiempo: 
+ 0.298942 s
+----------
+graph3_emd_bi.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  0.520834
+Tiempo: 
+ 0.327442 s
+----------
+graph3_emd_bi_cut_approximation.py
+MIP: 
+ Cut [B, C] ━━/ /━━➤ [A]
+Phi: 
+ Φ =  0.520834
+Tiempo: 
+ 0.278416 s
+----------
+graph3_emd_bi_memorization.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  0.520834
+Tiempo: 
+ 0.328216 s
+----------
+graph3_emd_bi_no_new_concepts.py
+MIP: 
+ Cut [C] ━━/ /━━➤ [A, B]
+Phi: 
+ Φ =  0.520834
+Tiempo: 
+ 0.257523 s
+----------
+graph3_emd_bi_parallel.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  0.520834
+Tiempo: 
+ 0.321521 s
+----------
+graph3_emd_tri_cm.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  0.659722
+Tiempo: 
+ 0.329101 s
+----------
+graph3_emd_tri_no_cm.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  0.659723
+Tiempo: 
+ 0.467556 s
+----------
+graph3_l1_bi_cm.py
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C]
+Phi: 
+ Φ =  1.416665
+Tiempo: 
+ 0.232122 s
+----------
+graph3_l1_bi_no_cm.py
+MIP: 
+ Cut [C] ━━/ /━━➤ [A, B]
+Phi: 
+ Φ =  1.416665
+Tiempo: 
+ 0.287854 s
+----------
+graph4_emd_bi.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.308035
+Tiempo: 
+ 2.339657 s
+----------
+graph4_emd_bi_cut_approximation.py
+MIP: 
+ Cut [A, C, D] ━━/ /━━➤ [B]
+Phi: 
+ Φ =  0.308035
+Tiempo: 
+ 0.798052 s
+----------
+graph4_emd_bi_memorization.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.308035
+Tiempo: 
+ 4.254868 s
+----------
+graph4_emd_bi_no_new_concept.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.308035
+Tiempo: 
+ 0.931816 s
+----------
+graph4_emd_bi_parallel.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.308035
+Tiempo: 
+ 2.308236 s
+----------
+graph4_emd_tri_cm.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.401785
+Tiempo: 
+ 2.060423 s
+----------
+graph4_emd_tri_no_cm.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.401785
+Tiempo: 
+ 4.834614 s
+----------
+graph4_l1_bi_cm.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  1.224332
+Tiempo: 
+ 0.871646 s
+----------
+graph4_l1_bi_no_cm.py
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  1.224332
+Tiempo: 
+ 1.549764 s
+----------
+graph5_emd_bi.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.048788
+Tiempo: 
+ 19.771313 s
+----------
+graph5_emd_bi_cut_approximation.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.048788
+Tiempo: 
+ 2.406701 s
+----------
+graph5_emd_bi_memorization.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.048788
+Tiempo: 
+ 19.965255 s
+----------
+graph5_emd_bi_no_new_concept.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.048788
+Tiempo: 
+ 3.434969 s
+----------
+graph5_emd_bi_parallel.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.048788
+Tiempo: 
+ 19.953616 s
+----------
+graph5_emd_tri_cm.py
+MIP: 
+ Cut [A, C, D, E] ━━/ /━━➤ [B]
+Phi: 
+ Φ =  0.1875
+Tiempo: 
+ 13.145709 s
+----------
+graph5_emd_tri_no_cm.py
+MIP: 
+ Cut [A, C, D, E] ━━/ /━━➤ [B]
+Phi: 
+ Φ =  0.187501
+Tiempo: 
+ 100.962663 s
+----------
+graph5_l1_bi_cm.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.169643
+Tiempo: 
+ 2.833316 s
+----------
+graph5_l1_bi_no_cm.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.169643
+Tiempo: 
+ 11.64626 s
+----------
+graph6_emd_bi.py
+MIP:                                                                                                                                    
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.250981
+Tiempo: 
+ 298.861476 s
+----------
+graph6_emd_bi_cut_approximation.py
+MIP:                                                                                                                   
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.250981
+Tiempo: 
+ 3.73105 s
+----------
+graph6_emd_bi_memorization.py
+MIP:                                                                                                                   
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.250981
+Tiempo: 
+ 328.925676 s
+----------
+graph6_emd_bi_no_new_concepts.py
+MIP:                                                                                                                   
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.250981
+Tiempo: 
+ 32.28119 s
+----------
+graph6_emd_bi_parallel.py
+MIP:                                                                                                                   
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.250981
+Tiempo: 
+ 321.040499 s
+----------
+graph6_emd_tri_cm.py
+MIP:                                                                                                                   
+ Cut [A, B, C, D, E] ━━/ /━━➤ [F]
+Phi: 
+ Φ =  0.401718
+Tiempo: 
+ 9.104958 s
+----------
+graph6_emd_tri_no_cm.py
+MIP:                                                                                                                   
+ Cut [A, B, C, D, E] ━━/ /━━➤ [F]
+Phi: 
+ Φ =  0.401722
+Tiempo: 
+ 5919.649668 s
+----------
+graph6_l1_bi_cm.py
+MIP:                                                                                                                   
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.672795
+Tiempo: 
+ 5.671494 s
+----------
+graph6_l1_bi_no_cm.py
+MIP:                                                                                                                   
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.672795
+Tiempo: 
+ 128.553801 s
+----------
+graph7_emd_bi.py
+MIP: 
+ Cut [D, F] ━━/ /━━➤ [A, B, C, E]
+Phi: 
+ Φ =  4.805374
+Tiempo: 
+ 1301.116271 s
+----------
+graph7_emd_bi_cut_approximation.py
+MIP: 
+ NullCut((0, 1, 2, 3, 4, 5))
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 0.002486 s
+----------
+graph7_emd_bi_memoization.py
+MIP: 
+ Cut [D, F] ━━/ /━━➤ [A, B, C, E]
+Phi: 
+ Φ =  4.805374
+Tiempo: 
+ 1298.967955 s
+----------
+graph7_emd_bi_no_new_concepts.py
+MIP: 
+ Cut [D, F] ━━/ /━━➤ [A, B, C, E]
+Phi: 
+ Φ =  4.805374
+Tiempo: 
+ 1065.337553 s
+----------
+graph7_emd_bi_parallel.py
+MIP: 
+ Cut [D, F] ━━/ /━━➤ [A, B, C, E]
+Phi: 
+ Φ =  4.805374
+Tiempo: 
+ 1318.673529 s
+----------
+graph7_emd_tri_cm.py
+MIP: 
+ NullCut((0, 1, 2, 3, 4, 5))
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 0.002649 s
+----------
+graph7_emd_tri_no_cm.py
+MIP: 
+ Cut [D, E, F] ━━/ /━━➤ [A, B, C]
+Phi: 
+ Φ =  6.298571
+Tiempo: 
+ 15161.516365 s
+----------
+graph7_l1_bi_cm.py
+MIP: 
+ NullCut((0, 1, 2, 3, 4, 5))
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 0.001793 s
+----------
+graph7_l1_bi_no_cm.py
+MIP: 
+ Cut [D, F] ━━/ /━━➤ [A, B, C, E]
+Phi: 
+ Φ =  11.502855
+Tiempo: 
+ 225.339444 s
+----------
+graph8_emd_bi.py
+Traceback (most recent call last):
+  File "/Users/Lucas/Desktop/PyPhi/executionFiles/graph8_l1_bi_cm.py", line 16, in <module>
+    subsystem = pyphi.Subsystem(network, state, node_indices)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/subsystem.py", line 101, in __init__
+    validate.subsystem(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 182, in subsystem
+    state_reachable(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 164, in state_reachable
+    raise exceptions.StateUnreachableError(subsystem.state)
+pyphi.exceptions.StateUnreachableError: The state (1, 0, 0, 1, 1, 1, 0) cannot be reached in the given TPM.
+----------
+graph8_emd_bi_cut_approximation.py
+Traceback (most recent call last):
+  File "/Users/Lucas/Desktop/PyPhi/executionFiles/graph8_l1_bi_cm.py", line 16, in <module>
+    subsystem = pyphi.Subsystem(network, state, node_indices)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/subsystem.py", line 101, in __init__
+    validate.subsystem(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 182, in subsystem
+    state_reachable(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 164, in state_reachable
+    raise exceptions.StateUnreachableError(subsystem.state)
+pyphi.exceptions.StateUnreachableError: The state (1, 0, 0, 1, 1, 1, 0) cannot be reached in the given TPM.
+----------
+graph8_emd_bi_memoization.py
+Traceback (most recent call last):
+  File "/Users/Lucas/Desktop/PyPhi/executionFiles/graph8_l1_bi_cm.py", line 16, in <module>
+    subsystem = pyphi.Subsystem(network, state, node_indices)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/subsystem.py", line 101, in __init__
+    validate.subsystem(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 182, in subsystem
+    state_reachable(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 164, in state_reachable
+    raise exceptions.StateUnreachableError(subsystem.state)
+pyphi.exceptions.StateUnreachableError: The state (1, 0, 0, 1, 1, 1, 0) cannot be reached in the given TPM.
+----------
+graph8_emd_bi_no_new_concepts.py
+Traceback (most recent call last):
+  File "/Users/Lucas/Desktop/PyPhi/executionFiles/graph8_l1_bi_cm.py", line 16, in <module>
+    subsystem = pyphi.Subsystem(network, state, node_indices)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/subsystem.py", line 101, in __init__
+    validate.subsystem(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 182, in subsystem
+    state_reachable(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 164, in state_reachable
+    raise exceptions.StateUnreachableError(subsystem.state)
+pyphi.exceptions.StateUnreachableError: The state (1, 0, 0, 1, 1, 1, 0) cannot be reached in the given TPM.
+----------
+graph8_emd_bi_parallel.py
+Traceback (most recent call last):
+  File "/Users/Lucas/Desktop/PyPhi/executionFiles/graph8_l1_bi_cm.py", line 16, in <module>
+    subsystem = pyphi.Subsystem(network, state, node_indices)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/subsystem.py", line 101, in __init__
+    validate.subsystem(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 182, in subsystem
+    state_reachable(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 164, in state_reachable
+    raise exceptions.StateUnreachableError(subsystem.state)
+pyphi.exceptions.StateUnreachableError: The state (1, 0, 0, 1, 1, 1, 0) cannot be reached in the given TPM.
+----------
+graph8_emd_tri_cm.py
+Traceback (most recent call last):
+  File "/Users/Lucas/Desktop/PyPhi/executionFiles/graph8_l1_bi_cm.py", line 16, in <module>
+    subsystem = pyphi.Subsystem(network, state, node_indices)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/subsystem.py", line 101, in __init__
+    validate.subsystem(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 182, in subsystem
+    state_reachable(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 164, in state_reachable
+    raise exceptions.StateUnreachableError(subsystem.state)
+pyphi.exceptions.StateUnreachableError: The state (1, 0, 0, 1, 1, 1, 0) cannot be reached in the given TPM.
+----------
+graph8_emd_tri_no_cm.py
+Traceback (most recent call last):
+  File "/Users/Lucas/Desktop/PyPhi/executionFiles/graph8_l1_bi_cm.py", line 16, in <module>
+    subsystem = pyphi.Subsystem(network, state, node_indices)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/subsystem.py", line 101, in __init__
+    validate.subsystem(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 182, in subsystem
+    state_reachable(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 164, in state_reachable
+    raise exceptions.StateUnreachableError(subsystem.state)
+pyphi.exceptions.StateUnreachableError: The state (1, 0, 0, 1, 1, 1, 0) cannot be reached in the given TPM.
+----------
+graph8_l1_bi_cm.py
+Traceback (most recent call last):
+  File "/Users/Lucas/Desktop/PyPhi/executionFiles/graph8_l1_bi_cm.py", line 16, in <module>
+    subsystem = pyphi.Subsystem(network, state, node_indices)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/subsystem.py", line 101, in __init__
+    validate.subsystem(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 182, in subsystem
+    state_reachable(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 164, in state_reachable
+    raise exceptions.StateUnreachableError(subsystem.state)
+pyphi.exceptions.StateUnreachableError: The state (1, 0, 0, 1, 1, 1, 0) cannot be reached in the given TPM.
+----------
+graph8_l1_bi_no_cm.py
+Traceback (most recent call last):
+  File "/Users/Lucas/Desktop/PyPhi/executionFiles/graph8_l1_bi_cm.py", line 16, in <module>
+    subsystem = pyphi.Subsystem(network, state, node_indices)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/subsystem.py", line 101, in __init__
+    validate.subsystem(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 182, in subsystem
+    state_reachable(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyphi/validate.py", line 164, in state_reachable
+    raise exceptions.StateUnreachableError(subsystem.state)
+pyphi.exceptions.StateUnreachableError: The state (1, 0, 0, 1, 1, 1, 0) cannot be reached in the given TPM.
+----------
+graph9_emd_bi.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C, D, E, F]
+Phi: 
+ Φ =  0.531249
+Tiempo: 
+ 183.684592 s
+----------
+graph9_emd_bi_cut_approximation.py
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E, F]
+Phi: 
+ Φ =  0.859372
+Tiempo: 
+ 1.779311 s
+----------
+graph9_emd_bi_memoization.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C, D, E, F]
+Phi: 
+ Φ =  0.531249
+Tiempo: 
+ 183.616494 s
+----------
+graph9_emd_bi_no_new_concepts.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C, D, E, F]
+Phi: 
+ Φ =  0.531249
+Tiempo: 
+ 14.387839 s
+----------
+graph9_emd_bi_parallel.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C, D, E, F]
+Phi: 
+ Φ =  0.531249
+Tiempo: 
+ 184.391743 s
+----------
+graph9_emd_tri_cm.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C, D, E, F]
+Phi: 
+ Φ =  0.749999
+Tiempo: 
+ 4.637165 s
+----------
+graph9_emd_tri_no_cm.py
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C, D, E, F]
+Phi: 
+ Φ =  0.749996
+Tiempo: 
+ 1607.32031 s
+----------
+graph9_l1_bi_cm.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E, F]
+Phi: 
+ Φ =  1.625001
+Tiempo: 
+ 3.466755 s
+----------
+graph9_l1_bi_no_cm.py
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E, F]
+Phi: 
+ Φ =  1.625001
+Tiempo: 
+ 98.545874 s
