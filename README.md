@@ -1,5 +1,4 @@
 # Test PyPhi Library
 ## Results: 
-- [Google Sheet](https://docs.google.com/spreadsheets/d/1wI31gxWyUp19Uto2J60nc9MDDIj1LbV8qJ8q_0iSALc/edit?usp=sharing)
-- [Testing Progress](https://docs.google.com/spreadsheets/d/1wI31gxWyUp19Uto2J60nc9MDDIj1LbV8qJ8q_0iSALc/edit?usp=sharing)
-- [Test Graphs](https://docs.google.com/spreadsheets/d/1wI31gxWyUp19Uto2J60nc9MDDIj1LbV8qJ8q_0iSALc/edit?usp=sharing)
+- [Excel File](https://github.com/lucasucaldas/GraphProject/blob/lucas/Docs/Results.xlsx)
+- [Test Graphs](https://github.com/lucasucaldas/GraphProject/blob/lucas/Docs/graphs.docx)

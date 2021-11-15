@@ -49,7 +49,7 @@
     {
       "index": 3,
       "label": "D",
-      "on": 1,
+      "on": 0,
       "mechanism": "AND",
       "reflexive": false,
       "selected": false,
@@ -79,7 +79,7 @@
     {
       "index": 5,
       "label": "F",
-      "on": 1,
+      "on": 0,
       "mechanism": "XOR",
       "reflexive": false,
       "selected": false,
@@ -166,6 +166,6 @@
     [0, 0, 1, 0, 0, 1],
     [0, 0, 0, 1, 1, 0]
   ],
-  "state": [0, 0, 0, 1, 0, 1],
+  "state": [0, 0, 0, 0, 0, 0],
   "version": "1.0.6"
 }

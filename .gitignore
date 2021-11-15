@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 
 .vscode/
+
+__pyphi_cache__/
+.DS_Store
