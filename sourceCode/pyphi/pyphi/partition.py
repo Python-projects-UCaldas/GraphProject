@@ -517,7 +517,6 @@ def wedge_partitions(mechanism, purview, node_labels=None):
             yielded.add(tripart)
             yield tripart
 
-
 '''
 @partition_types.register("ALL")
 def all_partitions(mechanism, purview, node_labels=None):
