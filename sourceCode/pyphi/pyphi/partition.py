@@ -518,6 +518,7 @@ def wedge_partitions(mechanism, purview, node_labels=None):
             yield tripart
 
 
+'''
 @partition_types.register("ALL")
 def all_partitions(mechanism, purview, node_labels=None):
     """Return all possible partitions of a mechanism and purview.
@@ -557,3 +558,49 @@ def all_partitions(mechanism, purview, node_labels=None):
                         continue
 
                     yield KPartition(*parts, node_labels=node_labels)
+
+'''
+
+# Our approach to divide and conquer method of this function
+
+@partition_types.register("ALL")
+def all_partitions(mechanism, purview, node_labels=None):
+    
+    for mechanism_partition in partitions(mechanism):
+        mechanism_partition.append([])
+        n_mechanism_parts = len(mechanism_partition)
+        max_purview_partition = min(len(purview), n_mechanism_parts)
+
+        check = checkEmptyValuesPurview(max_purview_partition)
+
+        if(check == 0):
+            break
+
+def checkEmptyValuesPurview(max_purview_partition, n_mechanism_parts, purview, mechanism_partition, mechanism, node_labels):
+    for n_purview_parts in range(1, max_purview_partition + 1):
+            n_empty = n_mechanism_parts - n_purview_parts
+            if(n_empty == 0):
+                return 0
+            else:
+                for purview_partition in k_partitions(purview, n_purview_parts):
+                    purview_partition = [tuple(_list) for _list in purview_partition]
+
+                    purview_partition.extend([()] * n_empty)
+
+                    setPermutations(purview_partition, mechanism_partition, mechanism, node_labels)
+
+def setPermutations(purview_partition, mechanism_partition, mechanism, node_labels):
+    for purview_permutation in set(permutations(purview_partition)):
+
+                    parts = [
+                        Part(tuple(m), tuple(p))
+                        for m, p in zip(mechanism_partition, purview_permutation)
+                    ]
+
+                    if parts[0].mechanism == mechanism and parts[0].purview:
+                        continue
+
+                    yieldKpartitions(parts, node_labels)
+
+def yieldKpartitions(parts, node_labels):
+    yield KPartition(*parts, node_labels=node_labels)
