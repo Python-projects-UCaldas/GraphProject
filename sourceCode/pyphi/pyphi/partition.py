@@ -568,17 +568,16 @@ def all_partitions(mechanism, purview, node_labels=None):
     for mechanism_partition in partitions(mechanism):
         mechanism_partition.append([])
         n_mechanism_parts = len(mechanism_partition)
-        max_purview_partition = min(len(purview), n_mechanism_parts)
-
-        check = checkEmptyValuesPurview(max_purview_partition)
-
-        if(check == 0):
+        max_purview_partition = min((len(purview)/2), n_mechanism_parts)
+        check,check2 = checkEmptyValuesPurview(max_purview_partition)
+        if(check == 0 and check2 == 0):
             break
 
 def checkEmptyValuesPurview(max_purview_partition, n_mechanism_parts, purview, mechanism_partition, mechanism, node_labels):
+    
     for n_purview_parts in range(1, max_purview_partition + 1):
-            n_empty = n_mechanism_parts - n_purview_parts
-            if(n_empty == 0):
+            n_empty = n_mechanism_parts - n_purview_parts     
+            if(n_empty == 0): 
                 return 0
             else:
                 for purview_partition in k_partitions(purview, n_purview_parts):
@@ -586,9 +585,11 @@ def checkEmptyValuesPurview(max_purview_partition, n_mechanism_parts, purview, m
 
                     purview_partition.extend([()] * n_empty)
 
-                    setPermutations(purview_partition, mechanism_partition, mechanism, node_labels)
+                    return setPermutations(purview_partition, mechanism_partition, mechanism, node_labels)
 
 def setPermutations(purview_partition, mechanism_partition, mechanism, node_labels):
+    checkList1 = []
+    checkList2 = []
     for purview_permutation in set(permutations(purview_partition)):
 
                     parts = [
@@ -600,6 +601,9 @@ def setPermutations(purview_partition, mechanism_partition, mechanism, node_labe
                         continue
 
                     yieldKpartitions(parts, node_labels)
+                    checkList1.append(parts[0].mechanism)
+                    checkList2.append(parts[0].purview)
+                    return checkList1,checkList2
 
 def yieldKpartitions(parts, node_labels):
     yield KPartition(*parts, node_labels=node_labels)
